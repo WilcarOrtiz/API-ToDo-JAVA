@@ -13,6 +13,8 @@ import java.util.List;
 public class TaskService {
 
     /*wilcar comentarios*/
+
+    /*comentarios para sonarCloud*/
     private final TaskRepository taskRepository;
     private final TaskInDtoToTask mapper;
 
