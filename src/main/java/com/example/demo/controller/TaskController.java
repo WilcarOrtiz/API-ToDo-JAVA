@@ -31,7 +31,7 @@ public class TaskController {
     @GetMapping("/status/{taskStatus}")
     public List<Task> findAllBystatus(@PathVariable("taskStatus") TaskStatus taskStatus){
         return this.taskService.findAllByTaskStatus(taskStatus);
-        /*cambio*/
+        /*cambio para realizar el analisys*/
     }
 
 
